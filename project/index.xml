@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Yatin Dandi</title>
+    <link>https://yatindandi.github.io/project/</link>
+    <description>Recent content in Projects on Yatin Dandi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Yatin Dandi</copyright>
+    <lastBuildDate>Sun, 07 Oct 2018 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://yatindandi.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Disentangled Representation Learning using Generative Models</title>
+      <link>https://yatindandi.github.io/project/1nsriv/</link>
+      <pubDate>Sun, 07 Oct 2018 00:00:00 +0530</pubDate>
+      
+      <guid>https://yatindandi.github.io/project/1nsriv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> Deep Reinforcement Learning for Atari Games</title>
+      <link>https://yatindandi.github.io/project/reinforce/</link>
+      <pubDate>Wed, 27 Jun 2018 00:00:00 +0530</pubDate>
+      
+      <guid>https://yatindandi.github.io/project/reinforce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image Captioning with visual attention</title>
+      <link>https://yatindandi.github.io/project/3pclub/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0530</pubDate>
+      
+      <guid>https://yatindandi.github.io/project/3pclub/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computational Models for Inference of Social Dynamics</title>
+      <link>https://yatindandi.github.io/project/cgs/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://yatindandi.github.io/project/cgs/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
