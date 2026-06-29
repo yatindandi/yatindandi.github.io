@@ -534,6 +534,15 @@ a[data-fancybox] img {
   object-fit: cover;
 }
 
+#profile .profile-photo {
+  width: min(100%, 320px);
+  aspect-ratio: 1;
+  margin: 0 auto 24px;
+  border-radius: 6px;
+  object-fit: cover;
+  box-shadow: 0 0.5rem 1.4rem rgba(0,0,0,0.14);
+}
+
 #profile .portrait-title h2 {
   font-size: 1.75em;
   font-weight: 300;
