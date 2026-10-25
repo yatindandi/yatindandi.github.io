@@ -174,12 +174,6 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#research" data-target="#research">
-            <span>Research</span>
-          </a>
-        </li>
-
-        <li class="nav-item">
           <a class="nav-link" href="/#publications" data-target="#publications">
             
             <span>Publications</span>
@@ -406,71 +400,37 @@ Previously, I obtained a dual-degree (Btech-MTech) in Computer Science at IIT Ka
   
   
   
-  <section id="research" class="home-section" aria-labelledby="research-title">
-    <div class="container">
-      <div class="research-heading">
-        <h1 id="research-title">Research in motion</h1>
-        <p>Two visual explanations of how neural networks learn features, from my Neural LoFi slides.</p>
-      </div>
-
-      <figure class="research-animation" id="neural-lofi">
-        <figcaption>
-          <h2 id="neural-lofi-title">Neural LoFi</h2>
-          <p id="neural-lofi-description">Label-guided filtering alternates with nonlinear random-feature expansion, revealing useful features one layer at a time.</p>
-        </figcaption>
-        <video class="research-video" controls loop muted playsinline preload="none" width="1600" height="680"
-               poster="/media/research/neural-lofi-poster.png"
-               aria-labelledby="neural-lofi-title" aria-describedby="neural-lofi-description">
-          <source src="/media/research/neural-lofi.mp4" type="video/mp4">
-          <a href="/media/research/neural-lofi.mp4">Watch the Neural LoFi animation.</a>
-        </video>
-        <div class="research-links">
-          <a href="https://arxiv.org/abs/2605.13612" target="_blank" rel="noopener">Read the Neural LoFi paper <span aria-hidden="true">&rarr;</span></a>
-          <a href="/media/research/neural-lofi.mp4" target="_blank" rel="noopener">Open animation</a>
-        </div>
-      </figure>
-
-      <figure class="research-animation" id="backward-coupling">
-        <figcaption>
-          <h2 id="backward-coupling-title">Backward coupling</h2>
-          <p id="backward-coupling-description">A neuron's incoming row and outgoing column learn together: upper-layer sensitivity guides feature learning, and the new activation reinforces the matching outgoing column.</p>
-        </figcaption>
-        <video class="research-video" controls loop muted playsinline preload="none" width="1600" height="680"
-               poster="/media/research/backward-coupling-poster.png"
-               aria-labelledby="backward-coupling-title" aria-describedby="backward-coupling-description">
-          <source src="/media/research/backward-coupling.mp4" type="video/mp4">
-          <a href="/media/research/backward-coupling.mp4">Watch the backward coupling animation.</a>
-        </video>
-        <div class="research-links">
-          <a href="/media/research/backward-coupling.mp4" target="_blank" rel="noopener">Open animation</a>
-        </div>
-      </figure>
-    </div>
-  </section>
-
   <section id="publications" class="home-section">
     <div class="container">
       
 
 <div class="row">
-  <div class="col-12 col-lg-4 section-heading">
+  <div class="col-12 section-heading">
     <h1>Publications</h1>
     <p>Grouped by current research themes. See <a href="https://scholar.google.com/citations?user=UiEzYkMAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a> for citation data and the newest updates.</p>
   </div>
-  <div class="col-12 col-lg-8">
+  <div class="col-12">
     <div class="publication-topic">
       <h3>Deep Learning Theory</h3>
       <ul class="publication-list">
-        <li class="publication-featured">
-          <div class="publication-copy">
-            <a class="publication-title" href="https://arxiv.org/abs/2605.13612" target="_blank" rel="noopener">Deep Learning as Neural Low-Degree Filtering: A Spectral Theory of Hierarchical Feature Learning</a>
-            <div class="publication-authors">Yatin Dandi, Matteo Vilucchio, Luca Arnaboldi, Hugo Tabanelli, Florent Krzakala</div>
-            <div class="publication-meta">HiLD Workshop, ICML 2026</div>
-          </div>
-          <figure class="publication-figure">
-            <img src="/img/publications/neural-lofi-figure-1.png" loading="lazy" alt="Neural LoFi versus gradient descent on binary CIFAR-10">
-            <figcaption>Neural LoFi versus gradient descent/backpropagation.</figcaption>
-          </figure>
+        <li class="publication-featured" id="backward-coupling">
+          <span class="publication-title" id="backward-coupling-title">Neural LoFi with Backward Coupling: A Spectral Theory of Cross-Layer Feature Learning</span>
+          <div class="publication-authors">Yatin Dandi, Matteo Vilucchio, Hugo Tabanelli, Florent Krzakala</div>
+          <video class="research-video" controls loop muted playsinline preload="none" width="1600" height="680"
+                 poster="/media/research/backward-coupling-poster.png" aria-labelledby="backward-coupling-title">
+            <source src="/media/research/backward-coupling.mp4" type="video/mp4">
+            <a href="/media/research/backward-coupling.mp4">Watch the backward coupling animation.</a>
+          </video>
+        </li>
+        <li class="publication-featured" id="neural-lofi">
+          <a class="publication-title" id="neural-lofi-title" href="https://arxiv.org/abs/2605.13612" target="_blank" rel="noopener">Deep Learning as Neural Low-Degree Filtering: A Spectral Theory of Hierarchical Feature Learning</a>
+          <div class="publication-authors">Yatin Dandi, Matteo Vilucchio, Luca Arnaboldi, Hugo Tabanelli, Florent Krzakala</div>
+          <div class="publication-meta">NeurIPS 2026</div>
+          <video class="research-video" controls loop muted playsinline preload="none" width="1600" height="680"
+                 poster="/media/research/neural-lofi-poster.png" aria-labelledby="neural-lofi-title">
+            <source src="/media/research/neural-lofi.mp4" type="video/mp4">
+            <a href="/media/research/neural-lofi.mp4">Watch the Neural LoFi animation.</a>
+          </video>
         </li>
         <li>
           <a class="publication-title" href="https://arxiv.org/abs/2605.14567" target="_blank" rel="noopener">Scaling Laws from Sequential Feature Recovery: A Solvable Hierarchical Model</a>

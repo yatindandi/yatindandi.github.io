@@ -1023,35 +1023,20 @@ article .article-metadata {
   margin-bottom: 2rem;
 }
 
+#publications .section-heading {
+  margin-bottom: 1rem;
+}
+
+#publications .section-heading p {
+  max-width: 760px;
+}
+
 .publication-featured {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(180px, 30%);
-  gap: 1.1rem;
-  align-items: start;
+  scroll-margin-top: 90px;
 }
 
-.publication-copy {
-  min-width: 0;
-}
-
-.publication-figure {
-  margin: 0;
-}
-
-.publication-figure img {
-  display: block;
-  width: 100%;
-  border-radius: 6px;
-  border: 1px solid rgba(0,0,0,0.10);
-  background: #fff;
-}
-
-.publication-figure figcaption {
-  margin: 0.45rem 0 0;
-  font-family: 'Roboto', sans-serif;
-  font-size: 0.76rem;
-  line-height: 1.35;
-  color: rgba(0,0,0,0.58);
+.publication-featured .research-video {
+  margin-top: 1rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -1063,15 +1048,6 @@ article .article-metadata {
     font-size: 1.08rem;
   }
 
-  .publication-featured {
-    grid-template-columns: 1fr;
-    gap: 0.75rem;
-  }
-
-  .publication-figure {
-    max-width: 420px;
-  }
-
   .publication-title {
     font-size: 0.98rem;
   }
@@ -1080,46 +1056,6 @@ article .article-metadata {
 /*************************************************
  * Research animations
  **************************************************/
-
-.research-heading {
-  max-width: 760px;
-  margin-bottom: 2rem;
-}
-
-.research-heading h1 {
-  margin-top: 0;
-}
-
-.research-heading p,
-.research-animation figcaption p {
-  color: rgba(0,0,0,0.65);
-}
-
-.research-animation {
-  margin: 0;
-}
-
-.research-animation + .research-animation {
-  margin-top: 2.5rem;
-  padding-top: 2rem;
-  border-top: 1px solid rgba(0,0,0,0.10);
-}
-
-.research-animation figcaption {
-  margin: 0 0 1rem;
-  font-family: inherit;
-  line-height: 1.6;
-}
-
-.research-animation figcaption h2 {
-  margin-top: 0;
-}
-
-.research-animation figcaption p {
-  max-width: 900px;
-  margin-bottom: 0;
-  font-size: 0.95rem;
-}
 
 .research-video {
   width: 100%;
@@ -1131,15 +1067,6 @@ article .article-metadata {
   background: #fff;
 }
 
-.research-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem 1.5rem;
-  margin-top: 0.75rem;
-  font-size: 0.8rem;
-}
-
-.research-links a:focus-visible,
 .research-video:focus-visible {
   outline: 2px solid #3f51b5;
   outline-offset: 4px;
